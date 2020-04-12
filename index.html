@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
-        (function(w,t,c,p,s,e){
-            p=new Promise(function(r){w[c]={client:function(){return p}};
-            s=document.createElement(t);s.async=1;s.src='https://js.cobrowse.io/CobrowseIO.js';
-            e=document.getElementsByTagName(t)[0];e.parentNode.insertBefore(s,e);
-            s.onload=function(){r(w[c]);};});return p;
-        })(window,'script','CobrowseIO').then(function(){
-            CobrowseIO.license = "GDlHlzhpzAVO9g";
-            CobrowseIO.start();
-        });
-    </script>
-</head>
-<body>
-    <h1>This is cobrowse test</h1>
-    <p>hi testing ...........................</p>
-</body>
-</html>
+---
+layout: home
+background: '/img/bg-index.jpg'
+---
