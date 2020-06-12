@@ -11,6 +11,8 @@ const loadSDKScript = () => {
     });
 }
 
+loadSDKScript();
+
 const onStartScreenSharing = () => {
     CobrowseIO.client().then(function(){
         CobrowseIO.start();
