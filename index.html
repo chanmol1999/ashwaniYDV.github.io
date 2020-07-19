@@ -1,1011 +1,569 @@
-<!DOCTYPE html>
-<html lang="en" class="gr__cvresumetemplate_com">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#"
+	xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		<title>Ashwani Yadav</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="Description" content="Student at Google Summer of Code EE Major
+			at IIT-P Developer,
+			OpenSource enthusiast, Code fanatic">
+		<meta name="Keywords" content="Ashwani,Yadav,Ashwani YadavashwaniYDV,ashwaniydv,ashyadavash,gsoc,rocketchat,rocket.chat,iit,iitp,india">
+		<meta property="og:title" content="Student at Google Summer of Code | EE
+			Major at IIT-P | Developer,
+			OpenSource enthusiast, Code fanatic">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://ashwaniYDV.github.io">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+		<meta name="theme-color" content="#4d4256">
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic|Dancing+Script"
+			rel="stylesheet"
+			type="text/css">
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script
+			src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+	</script>
+		<link rel="stylesheet" href="assets/css/github.css" />
+		<style>
+		.myfont {
+			font-family: 'Josefin Sans', sans-serif;
+		}
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <style>
-        .gm-style .gm-style-mtc label,
-        .gm-style .gm-style-mtc div {
-            font-weight: 400
-        }
-    </style>
-    <style>
-        .gm-control-active>img {
-            box-sizing: content-box;
-            display: none;
-            left: 50%;
-            pointer-events: none;
-            position: absolute;
-            top: 50%;
-            transform: translate(-50%, -50%)
-        }
+		#homeimg {
+			opacity: 1;
+			/*position: absolute;*/
+			/*top: 50%;*/
+			/*left: 50%;*/
+			/*transform: translate(-50%,-50%);*/
+			margin: auto;
+			height: 200px;
+			z-index: 10;
+			width: 200px;
+			border-radius: 100px;
+			/*
+			    background-image: url('pic/dp_.png');
+			    background-size: 120%;
+			    background-position: -30px;*/
+			background-image: url('./images/inout.jpg');
+			background-size: 110%;
+			background-position-x: 65%;
+			box-shadow: 0 0 50px #151414;
+			background-color: #000000;
+		}
 
-        .gm-control-active>img:nth-child(1) {
-            display: block
-        }
+		.nomargin {
+			margin: 0px;
+		}
 
-        .gm-control-active:hover>img:nth-child(1),
-        .gm-control-active:active>img:nth-child(1) {
-            display: none
-        }
+		.faw-up {
+			/* padding: 20px; */
+			background-color: #4a4a4a;
+			box-shadow: rgb(76, 92, 150) 0 0 15px;
+			font-size: 30px;
+			width: 50px;
+			padding: 10px;
+			height: 50px;
+			margin: 10px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 50%;
+			cursor: pointer;
+		}
 
-        .gm-control-active:hover>img:nth-child(2),
-        .gm-control-active:active>img:nth-child(3) {
-            display: block
-        }
-    </style>
-    <link type="text/css" rel="stylesheet" href="css.html">
-    <style>
-        .gm-ui-hover-effect {
-            opacity: .6
-        }
+		.faw-up:hover {
+			opacity: 0.7;
+		}
 
-        .gm-ui-hover-effect:hover {
-            opacity: 1
-        }
-    </style>
-    <style>
-        .gm-style .gm-style-cc span,
-        .gm-style .gm-style-cc a,
-        .gm-style .gm-style-mtc div {
-            font-size: 10px;
-            box-sizing: border-box
-        }
-    </style>
-    <style>
-        @media print {
+		.faw-dwn {
+			/* padding: 20px; */
+			background-color: #4a4a4a;
+			box-shadow: rgb(76, 92, 150) 0 0 15px;
+			font-size: 30px;
+			width: 50px;
+			padding: 10px;
 
-            .gm-style .gmnoprint,
-            .gmnoprint {
-                display: none
-            }
-        }
+			height: 50px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 50%;
+			cursor: pointer;
+		}
 
-        @media screen {
+		.faw-dwn:hover {
+			opacity: 0.7;
+		}
 
-            .gm-style .gmnoscreen,
-            .gmnoscreen {
-                display: none
-            }
-        }
-    </style>
-    <style>
-        .gm-style-pbc {
-            transition: opacity ease-in-out;
-            background-color: rgba(0, 0, 0, 0.45);
-            text-align: center
-        }
+		#banner:before,
+		#banner:after {
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23555867%3B' /%3E%3C/svg%3E");
+		}
 
-        .gm-style-pbt {
-            font-size: 22px;
-            color: white;
-            font-family: Roboto, Arial, sans-serif;
-            position: relative;
-            margin: 0;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%)
-        }
-    </style>
-    <style>
-        .gm-style img {
-            max-width: none;
-        }
+		.notr {
+			text-transform: none !important;
+		}
 
-        .gm-style {
-            font: 400 11px Roboto, Arial, sans-serif;
-            text-decoration: none;
-        }
-    </style>
-    <title>Ashwani Yadav</title>
-    <!-- Required meta tags
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />-->
-    <link rel="icon" href="me.ico">
+		.zeroradius {
+			border-radius: 0px !important;
+		}
+	</style>
+		<script>
+		$(document).ready(function () {
+			$(".calendar").delay(1000).fadeIn();
+		});
+	</script>
+	</head>
 
-    <!-- Google Font-->
-    <link href="css%281%29" rel="stylesheet">
+	<body>
+		<div id="page-wrapper">
+			<header id="header" class="alt">
+				<h1><a href="./">Ashwani Yadav</a></h1>
+				<nav>
+					<a class="button" href="https://ashwaniYDV.github.io/blog"><i class="fa
+							fa-newspaper-o" aria-hidden="true"></i>&nbsp;Blog</a>
+					<!-- <a class="button" href=""><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;myCloud</a> -->
+					<a class="button" href="#menu">&lt;nav&gt;</a>
+				</nav>
+			</header>
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="./">Home</a></li>
+						<li><a href="https://ashwaniYDV.github.io/blog">Blog</a></li>
+						<li><a href="./certificates/Ashwani_Yadav_Resume.pdf">Resume</a></li>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#worked">Worked</a></li>
+						<li><a href="#alma-matter">Alma-Matter</a></li>
+						<li><a href="#projects">Projects</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+			<section id="banner" style="min-height:90%">
+				<div class="inner">
+					<div class="logo">
+						<div id="homeimg"></div>
+					</div>
+					<h2 id="headtext" class="notr myfont" style="text-align: center;"><b>Ashwani
+							Yadav</b></h2>
+					<p class="notr myfont" style="text-align: center;">
+							<a href="https://summerofcode.withgoogle.com/projects/#6162173627203584"
+							target="_blank">Student</a> at <a target="_blank"
+							href="https://summerofcode.withgoogle.com">Google Summer of Code</a><br>EE
+						Major at <a
+							href="https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Patna">IIT-P</a>
+						<br>Developer and Code fanatic<br>
+						<a href="./certificates/Ashwani_Yadav_Resume.pdf" target="_bl" class="button">Resume</a>
+						<br><a href="mailto:ashyadavash@gmail.com">ashyadavash@gmail.com</a><br>
+						<a target="_blank" href="https://linkedin.com/in/ashwaniydv" class="fa
+							faw-up fa-linkedin"></a>
+						<a target="_blank" href="https://www.facebook.com/ashwani.yadav9499" class="fa
+							faw-up fa-facebook"></a>
+						<a target="_blank" href="https://github.com/ashwaniYDV" class="fa faw-up
+							fa-github"></a>
+						<a target="_blank" href="https://instagram.com/ashwani_yadav04" class="fa faw-up
+							fa-instagram"></a>
+						<a target="_blank" href="https://twitter.com/ashyadavash" class="fa faw-up
+							fa-twitter"></a>
+						<div id="calcont" style="overflow-x: auto;width: 100%;">
+							<div class="calendar" style="display: none !important">
+								<!-- Loading stuff -->
+								<img src="loading.gif" alt="">
+							</div>
+						</div>
+						<span id="intro"></span>
+						<script>
+					GitHubCalendar(".calendar", "ashwaniYDV", { responsive: true });
+					// $("#calcont").scrollLeft("200px");
+				</script>
+					</p>
+				</div>
+			</section>
 
-    <!-- Animate CSS-->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Owl Carousel CSS-->
-    <link rel="stylesheet" href="css/owl.css">
-    <!-- Fancybox-->
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <!-- Custom CSS-->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/extra.css">
+			<!-- Wrapper Starts -->
+			<section id="wrapper">
 
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+				<section id="one" class="wrapper spotlight style1">
+					<div data-aos="fade-up" class="inner">
+						<a class="image"><img src="pic/octocat.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major myfont">About Me!</h2>
+							<!-- <h3 class="major myfont">Presently: Diving into the world of applications of cryptography in  modern cryptosystems</h3> -->
+							<p class="myfont">Student Developer at Google Summer of Code with RocketChat
+								<br>Coordinator : Open-source@ NJACK IITP
+								<br>Coordnator: Web and App dev team Anwesha, IIT Patna and Celesta, IIT Patna<br>Electrical Engineering student at IIT Patna
+								<br>Developer, Open source enthusiast, code fanatic ♥</p>
+							<!-- <a target="_bl" href="" class="special">Learn more</a> -->
+						</div>
+					</div>
+					<span id="worked"></span>
+				</section>
 
+				<br>
+				<h1 style="font-size: 3em;text-align: center" class="myfont">Worked</h1>
+				<br>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+				<section id="two" data-aos="fade-up" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<a target="_blank"
+							href="https://summerofcode.withgoogle.com/organizations/5186660074520576/#5408497358340096"
+							class="image zeroradius"><img class="zeroradius" src="pic/gsoc_logo.png"
+								alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Google Summer of Code
+								- Sophomore year</h2>
+							<h3 class="nomargin myfont">Student participant at GSoC for RocketChat</h3>
+							<h3 class="nomargin myfont">Omnichannel: Add screen sharing feature in the Livechat widget
+							</h3>
+							<h3 class="nomargin myfont">May – September 2020</h3>
+							<p>Google Summer of Code is a global program focused on bringing more
+								student developers into
+								open source software development. Students work with an open source
+								organization on a 3
+								month programming project during their break from school.</p>
+							<a target="_blank"
+								href="https://summerofcode.withgoogle.com/organizations/5186660074520576/#5408497358340096"
+								class="special">View project</a>
+						</div>
+					</div>
+				</section>
 
-    <!-- jQuery library -->
-    <script src="js/jquery.min.js"></script>
+				<!-- <section id="two" data-aos="fade-up" class="wrapper spotlight style3">
+				<div class="inner">
+					<a class="image zeroradius"><img class="zeroradius" src="pic/gci.png" alt="" /></a>
+					<div class="content">
+						<h2 class="major" style="text-transform: none !important;" class="myfont">Google Code-In</h2>
+						<h3 class="nomargin myfont">Mentor</h3>
+						<h3 class="nomargin myfont">November 2017 – January 2018</h3>
+						<p>
 
-    <!-- Popper JS -->
-    <script src="js/popper.min.js"></script>
+						</p>
+						<a href="" target="_blank" class="special">Learn
+							more</a>
+					</div>
+				</div>
+			</section> -->
+				<!-- <section id="two" data-aos="fade-up" class="wrapper spotlight alt style2">
+				<div class="inner">
+					<a class="image zeroradius"><img class="zeroradius" src="" alt="" /></a>
+					<div class="content">
+						<h2 class="major" style="text-transform: none !important;" class="myfont">Project</h2>
+						<h3 class="nomargin myfont">Active Open-source contributor</h3>
+						<h3 class="nomargin myfont">November 2016 – Forever</h3>
+						<p>Lorem ipsum</p>
+						<a href="" target="_blank" class="special">Learn
+							more</a>
+					</div>
+				</div>
+			</section> -->
+				<section id="two" data-aos="fade-up" class="wrapper spotlight style3">
+					<div class="inner">
+						<a class="image zeroradius"><img class="zeroradius"
+								src="pic/interiittechmmeet.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Inter IIT Tech Meet 8.0, IIT Roorkee</h2>
+							<!-- <h3 class="nomargin myfont">Sub-Coordinator</h3> -->
+							<h3 class="nomargin myfont">I with my team won Gold Medal for the event "Ashoka's Tech for Change"</h3>
+							<h3 class="nomargin myfont">Fullstack Web and Blockchain Developer</h3>
+							<h3 class="nomargin myfont">October – December 2019</h3>
+							<p>Problem Statement:
+								With the vision, “Technology is not an end in itself, it’s a means to an end”, participants are supposed to develop a product using technology to solve an existing societal problem. Also, form a suitable business model around the same.
+							</p>
+							<a href="http://interiittech.org/events/tech-for-change.html" target="_blank" class="special">Ashoka's Tech for Change</a>
+							<a href="http://interiittech.org/" target="_blank" class="special">Inter IIT Tech Meet</a>
+						</div>
+					</div>
+				</section>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+				<section id="two" data-aos="fade-up" class="wrapper spotlight style2 alt">
+					<div class="inner">
+						<a class="image"><img src="pic/anwesha.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Anwesha , IIT Patna
+							</h2>
+							<!-- <h3 class="nomargin myfont"></h3> -->
+							<h3 class="nomargin myfont">Sub-Coordinator, Web and App team : Aug
+								2019 – Feb 2020</h3>
+							<h3 class="nomargin myfont">Web Developer : Aug 2018 – Feb 2019</h3>
+							<h3 class="nomargin myfont">Location:IIT Patna</h3>
+							<p>Working as a full stack developer Anwesha 2020 Web Application<br>Anwesha
+								is the Annual
+								Techno-Cultural Festival organized by Indian Institute of Technology
+								Patna.</p>
+							<a target="_blank" href="https://github.com/anweshaiitp"
+								class="special">Github Organization</a>
+							<!-- <a href="" class="special">Learn more</a> -->
+						</div>
+					</div>
+				</section>
 
-    <!-- Colors -->
-    <link rel="alternate stylesheet"
-        href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/css/colors/blue.css" title="blue"
-        disabled>
-    <link rel="stylesheet" href="css/defauld.css" title="defauld">
-    <link rel="alternate stylesheet"
-        href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/css/colors/green.css"
-        title="green" disabled>
-    <link rel="alternate stylesheet"
-        href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/css/colors/blue-munsell.css"
-        title="blue-munsell" disabled>
-    <link rel="alternate stylesheet"
-        href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/css/colors/orange.css"
-        title="orange" disabled>
-    <link rel="alternate stylesheet"
-        href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/css/colors/purple.css"
-        title="purple" disabled>
-    <link rel="alternate stylesheet"
-        href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/css/colors/slate.css"
-        title="slate" disabled>
-    <link rel="alternate stylesheet"
-        href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/css/colors/yellow.css"
-        title="yellow" disabled>
-    <script type="text/javascript" charset="UTF-8" src="js/common.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/util.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/map.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/marker.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/onion.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/stats.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/controls.js"></script>
+				<section id="three" class="wrapper spotlight style3">
+					<div class="inner">
+						<a class="image"><img src="images/celLogo.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major">Celesta IIT Patna <br></h2>
+							<h3 class="nomargin myfont">Backend API developer for Android app and
+								web</h3>
+							<p></p>
+							<a target="_blank" href="https://github.com/Celesta-IITP/"
+								class="special">Github Organization</a>
+						</div>
+					</div>
+					<!-- <span id="alma-matter"></span> -->
+				</section>
 
-    <!--Github Librarry-->
-    <script src="js/github-calendar.min.js"></script>
-    <link rel="stylesheet" href="css/github-calendar-responsive.css">
+				<section id="three" class="wrapper spotlight style2 alt">
+					<div class="inner">
+						<a class="image"><img src="pic/njackLogo.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major">NJACK IITPatna</h2>
+							<h3 class="nomargin myfont">Coordinator: Development & Open Source</h3>
+							<h3 class="nomargin myfont">Sep 2019 – Present<br>Location: IIT Patna</h3>
+							<p>NJACK (Not Just Another Computer Science Klub!) is the official Computer Science Club of IIT Patna</p>
+							<a href="https://njack.iitp.ac.in/" target="_blank" class="special">Visit site</a>
+						</div>
+					</div>
+					<span id="alma-matter"></span>
+				</section>
 
+				<br>
+				<h1 style="font-size: 3em;text-align: center" class="myfont">Alma mater</h1>
+				<br>
 
-    <!-- Required meta tags -->
+				<section id="two" class="wrapper spotlight style3">
+					<div class="inner">
+						<a class="image"><img src="pic/iitp.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;font-family:
+								'Josefin Sans',
+								sans-serif !important;">
+								Indian Institute of Technology, Patna - IIT P</h2>
+							<h3 class="nomargin myfont">Bachelors in Technology</h3>
+							<h3 class="nomargin myfont">Major: Electrical Engineering</h3>
+							<p>The Indian Institute of Technology Patna is an autonomous institute
+								of education and research
+								in science, engineering and technology located in Patna, India. It is
+								recognized as an
+								Institute of National Importance by the Government of India.</p>
+							<a href="http://www.iitp.ac.in" target="_blank" class="special myfont">Learn
+								more</a>
+						</div>
+					</div>
+					<!-- <span id="alma-matter"></span> -->
+				</section>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Portfolio of Ashwani Yadav.">
-    <meta name="keywords"
-        content="Details about the projects done, positions and responsibility held along with the achievements.">
-    <meta name="developer" content="Ashwani Yadav">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+				<section id="three" class="wrapper spotlight style2 alt">
+					<div class="inner">
+						<a href="#" class="image"><img src="pic/mhs.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major myfont">Methodist High School, Kanpur</h2>
+							<h3 class="nomargin myfont">Primary-Middle-High School</h3>
+							<p></p>
+							<a href="https://en.wikipedia.org/wiki/Methodist_High_School,_Kanpur" target="_blank" class="special
+								myfont">Learn more</a>
+						</div>
+					</div>
+					<span id="projects"></span>
+				</section>
+				<br>
 
-    <!-- cobrowse.io -->
-    <!-- <script>
-        (function(w,t,c,p,s,e){
-            p=new Promise(function(r){w[c]={client:function(){return p}};
-            s=document.createElement(t);s.async=1;s.src='https://js.cobrowse.io/CobrowseIO.js';
-            e=document.getElementsByTagName(t)[0];e.parentNode.insertBefore(s,e);
-            s.onload=function(){r(w[c]);};});return p;
-        })(window,'script','CobrowseIO').then(function(){
-            CobrowseIO.license = "GDlHlzhpzAVO9g";
-            CobrowseIO.start();
-        });
-    </script> -->
+				<br>
+				<h1 style="font-size: 3em;text-align: center" class="myfont">Projects</h1>
+				<br>
 
-</head>
+				<section id="four" class="wrapper style1">
+					<div class="inner">
+						<h2 class="major">Highlights</h2>
+						<p>This section contains some of my the things I've worked on before.
+							<br>Many more such projects
+							can be found at <a target="_blank" href="https://github.com/ashwaniYDV">GitHub</a></p>
+						<section class="features">
+							<article>
+								<!-- <a class="image"><img src="pic/iwa_.png" alt="" /></a> -->
+								<h3 class="major">Zero-shot Image Recognition</h3>
+								<p>I have worked for Academic Project (CS244-Introduction to data science). My topic was Image classification: Zero-shot Image Recognition Using Relational Matching, Adaptation and Calibration</p>
+								<!-- <a target="_bl" href="https://iwebapp.ml" class="special">Live Version</a> -->
+								<a target="_bl" href="https://github.com/ashwaniYDV/Zero-shot-Image-Recognition"
+									class="special">View on Github</a>
+							</article>
+							<article>
+								<!-- <a class="image"><img src="pic/anw.png" alt="" /></a> -->
+								<h3 class="major">IIT Patna Utility App</h3>
+								<p>Built institute utility app for IIT-P students.</p>
+								<a target="_bl" href="https://play.google.com/store/apps/details?id=com.grobo.notifications&hl=en"
+									class="special">Android App</a>
+								<a target="_bl" href="http://iitpapp.herokuapp.com/" class="special">Live
+									Website</a>
+								<a target="_bl" href="https://github.com/doDev-IITP/IITP-Webapp"
+									class="special">View on Github</a>
+							</article>
+							<article>
+								<!-- <a class="image"><img src="pic/edvu.png" alt="" /></a> -->
+								<h3 class="major">Handwritten-Digit Prediction</h3>
+								<p>Handwritten Digit Prediction using Convolutional Neural Networks in TensorFlow with Keras and Live Example using TensorFlow.js</p>
+								<!-- <a class="special">Live Website</a> -->
+								<a target="_bl" href="https://github.com/ashwaniYDV/Handwritten-Digit-Prediction" class="special">View on Github</a>
+							</article>
+							<article>
+								<!-- <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a> -->
+								<h3 class="major">Sahaayak</h3>
+								<p>Sahaayak is a platform for the talented vendors and people who all are willing to work but not getting a right platform or chance to convert their passion and talent into their scalable profession.</p>
+								<a target="_bl" href="https://github.com/ashwaniYDV/sahaayak" class="special">View on Github</a>
+							</article>
+							<article>
+								<!-- <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a> -->
+								<h3 class="major">Rocket.Chat.GetJokeApp</h3>
+								<p>A RocketChat app which send you random joke through any channel by /getjoke slash command</p>
+								<a target="_bl" href="https://github.com/ashwaniYDV/Rocket.Chat.GetJokeApp" class="special">View on Github</a>
+							</article>
+							<article>
+								<!-- <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a> -->
+								<h3 class="major">IO-Chat</h3>
+								<p>socket.io realtime chatapp</p>
+								<a target="_bl" href="https://github.com/ashwaniYDV/iochat" class="special">View on Github</a>
+							</article>
+						</section>
+						<ul class="actions">
+							<li><a target="_blank" href="https://github.com/ashwaniYDV" class="button">Browse All</a></li>
+						</ul>
+					</div>
+				</section>
+				<br>
 
-<body class="dark-vertion black-bg" data-gr-c-s-loaded="true">
-    <!-- Start Loader -->
-    <div class="section-loader" style="display: none;">
-        <div class="loader">
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <!-- End Loader -->
+				<br>
+				<h1 style="font-size: 3em;text-align: center">Etc.</h1>
+				<br>
 
-    <!--
-        ===================
-           NAVIGATION
-        ===================
-        -->
-    <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp nav-strict" id="mh-header"
-        style="visibility: visible; animation-name: fadeInUp;">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg mh-nav nav-btn">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon icon"></span>
-                    </button>
+				<section id="three" class="wrapper alt spotlight style3">
+					<div class="inner">
+						<a href="#" class="image"><img src="pic/guitar.jpg" alt="" /></a>
+						<div class="content">
+							<h1>Hi, I’m Ashwani, the guy behind and front of this site!</h1>
+							<p>I’m a 2nd year undergrad at IIT Patna, who believe in technology and playing around with stuffs. I hail from Kanpur(U.P.), India. After years of slogging and hardwork, I finally managed to gain admission to the Indian Institute of Technology, Patna as an Undergratuate in Electrical <del>Computer Science</del> Engineering.</p>
+							<p>The following are a few things I do or used to do before when I'm not
+								coding:
+								<ul>
+									<li>Playing Guitar</li>
+									<li>Workout</li>
+									<li>Listening to Music!</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</section>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about-me">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#skills">Skills & Educations</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#experience">Project & Experiences</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://ashwaniYDV.github.io/blog">BLOG</a>
-                            </li>
+			</section>
+			<!-- Wrapper ends -->
 
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
+			<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<h2 class="major">Get in touch</h2>
 
-    <!--
-        ===================
-            HOME
-        ===================
-        -->
-    <section class="mh-home" id="home">
-        <div class="home-ovimg">
-            <div class="container">
-                <div class="row xs-column-reverse section-separator vertical-middle-content home-padding">
-                    <div class="col-sm-6">
-                        <div class="mh-header-info">
-                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"
-                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">
-                                <span>Hello I'm</span>
-                            </div>
+					<form id="my-form" action="https://formspree.io/mqkygoae" method="POST">
+						<p style="font-weight: bolder;" id="my-form-status"></p>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="emailholder" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="messageholder" rows="4"></textarea>
+						</div>
+						<ul class="actions">
+							<li><button id="my-form-button">Send Message</button></li>
+						</ul>
+					</form>
 
-                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
-                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                                Ashwani Yadav</h2>
-                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
-                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                                Full Stack Developer</h4>
+					<ul class="contact">
+						<li><code>IRC:  @ashwaniYDV</code></li>
+						<li><a target="_blank" href="https://linkedin.com/in/ashwaniydv"
+								class="myfont">&nbsp;&nbsp;&nbsp;LinkedIn</a></li>
+						<li><a target="_blank" href="https://github.com/ashwaniYDV"
+								class="myfont">&nbsp;&nbsp;&nbsp;GitHub</a></li>
+						<li><a target="_blank" href="https://www.facebook.com/ashwani.yadav9499"
+								class="myfont">&nbsp;&nbsp;&nbsp;Facebook</a></li>
+						<li><a target="_blank" href="https://instagram.com/ashwani_yadav04"
+								class="myfont">&nbsp;&nbsp;&nbsp;Instagram</a></li>
+						<li><a target="_blank" href="https://twitter.com/ashyadavash"
+								class="myfont">&nbsp;&nbsp;&nbsp;Twitter</a></li>
+					</ul>
 
-                            <ul>
-                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <i class="fa fa-envelope"></i><a
-                                        href="mailto:ashyadavash@gmail.com">ashyadavash@gmail.com</a></li>
-                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
-                                    <i class="fa fa-phone"></i><a href="callto:8299735195">+91 8299735195</a></li>
-                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                    <i class="fa fa-map-marker"></i>
-                                    <address>Kanpur, India</address>
-                                </li>
-                            </ul>
+				</div>
+			</section>
 
-                            <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s"
-                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                <li><a href="https://www.facebook.com/ashwani.yadav9499" target="_blank"><i
-                                            class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/ashyadavash" target="_blank"><i
-                                            class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://github.com/ashwaniYDV/" target="_blank"><i
-                                            class="fa fa-github"></i></a></li>
-                                <li><a href="https://www.instagram.com/ashwani_yadav04/" target="_blank"><i
-                                            class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/ashwaniydv/" target="_blank"><i
-                                            class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                            <div class="img-border">
-                                <img src="images/me.jpeg" alt class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+		</div>
 
-    <!--
-        ==================
-            ABOUT
-        =================
-        -->
-    <section class="mh-about" id="about-me">
-        <div class="container">
-            <div class="row section-separator">
-                <div class="col-sm-12 col-md-6">
-                    <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                        <img src="images/ab-img.png" alt class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="mh-about-inner">
-                        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">
-                            About Me</h2>
-                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                            Hello, I am Ashwani Yadav, full stack web and app developer.
-                            I am son of N.K. Yadav and Archana Yadav.
-                            I have rich experience in making websites and apps with their backend. Also I am good at</p>
-                        <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                            <ul>
-                                <li><span>Web</span></li>
-                                <li><span>Android</span></li>
-                                <li><span>Javascript</span></li>
-                                <li><span>Python</span></li>
-                                <li><span>C/C++</span></li>
-                                <li><span>Django</span></li>
-                                <li><span>php</span></li>
-                                <li><span>NodeJS</span></li>
-                                <li><span>Blockchain</span></li>
-                                <li><span>Ethereum</span></li>
-                                <li><span>Solidity</span></li>
-                            </ul>
-                        </div>
-                        <a href="./certificates/Ashwani_Yadav_Resume.pdf" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s"
-                            data-wow-delay="0.4s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">Downlaod
-                            CV <i class="fa fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--
-        ===================
-           SERVICE
-        ===================
-        -->
-    <section class="mh-service">
-        <div class="container">
-            <div class="row section-separator">
-                <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s"
-                    data-wow-delay="0.2s"
-                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                    <h2>What I do</h2>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                        data-wow-delay="0.3s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                        <i class="fa fa-code iron-color"></i>
-                        <h3>Web & App Developer</h3>
-                        <p>
-                            I develop websites and apps that creates an impact in the society.
-                            I develop it in passion. Also, I do projects of web and apps of open source community,
-                            college fests,
-                            clubs, etc. I did my GSoC in 2019 in an Android App.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                        data-wow-delay="0.5s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                        <i class="fa fa-bullseye purple-color"></i>
-                        <h3>API Making</h3>
-                        <p>
-                            Writing API's in NodeJS, php and python has interested me a lot these days.
-                            I do write API's for the web and app projects that I do, whenever needed. I have also
-                            written backend in nodeJS for my college utility app, IIT-P-App.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                        data-wow-delay="0.7s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
-                        <i class="fa fa-object-ungroup sky-color"></i>
-                        <h3>Blockchain</h3>
-                        <p>
-                            I am passionate to explore the field of Blockchain. Being a beginner in this
-                            field I have very less knowledge. But, I am learning it at a high pace to reach high
-                            position soon. I have ambition to continue my future in this field.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--
-        ===================
-           SKILLS
-        ===================
-        -->
-    <section class="mh-skills" id="skills">
-        <div class="container">
-            <div class="row section-separator">
-                <div class="section-title text-center col-sm-12">
-                    <!--<h2>Skills</h2>-->
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="mh-skills-inner">
-                        <div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                            <h3>Technical Skills</h3>
-                            <div class="each-skills">
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">Web(ReactJS, Angular, MeteorJS)</div>
-                                            <div class="percentagem-num">86%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 46%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">Mobile and Desktop App Dev(React Native, Electron)</div>
-                                            <div class="percentagem-num">30%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 42%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">Python</div>
-                                            <div class="percentagem-num">50%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 50%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">Backend Langauges(NodeJS, Django, PHP)</div>
-                                            <div class="percentagem-num">30%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 30%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">Database (MongoDb, MySQL)</div>
-                                            <div class="percentagem-num">20%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 20%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">C/C++</div>
-                                            <div class="percentagem-num">47%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 17%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">Blockchain</div>
-                                            <div class="percentagem-num">10%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 10%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="mh-education">
-                        <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
-                            style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp; text-align: center;">
-                            <b>Education</b></h3>
-                        <div class="mh-education-deatils">
-                            <br>
-                            <div class="mh-education-item dark-bg wow fadeInUp education" data-wow-duration="0.8s"
-                                data-wow-delay="0.5s"
-                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
-                                <h4>BTech From <a href="https://www.iitp.ac.in/" target="_blank"
-                                        style="color:#0bceaf">IIT Patna</a></h4>
-                                <div class="mh-eduyear" style="color:#0bceaf">2018-present</div>
-                                <p>I am currently pursuing my studies as a Electrical Engineer in a premium institute of
-                                    my country.</p>
-                            </div>
-                            <div class="mh-education-item dark-bg wow fadeInUp education" data-wow-duration="0.8s"
-                                data-wow-delay="0.3s"
-                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                                <h4>Higher Secondary From <a href="https://www.mhskanpur.org/" target="_blank"
-                                        style="color:#0bceaf">Methodist High School</a></h4>
-                                <div class="mh-eduyear" style="color:#0bceaf">2016-2018</div>
-                                <p>I pursued my Higher Secondary Education from a Premium institute name Methodist High
-                                    School, located in the Kanpur. </p>
-                            </div>
-                            <div class="mh-education-item dark-bg wow fadeInUp education" data-wow-duration="0.8s"
-                                data-wow-delay="0.6s"
-                                style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                <h4>Schooling From <a href="https://www.mhskanpur.org/" target="_blank"
-                                        style="color:#0bceaf">Methodist High School</a></h4>
-                                <div class="mh-eduyear" style="color:#0bceaf">2014-2016</div>
-                                <p>I pursued my Primary and Secondary Education from a Premium institute name Methodist
-                                    High School, located in the Kanpur. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Include the library. -->
-    <!--
-        ===================
-           EXPERIENCES
-        ===================
-        -->
-    <section class="mh-experince" id="experience">
-        <div class="bolor-overlay">
-            <div class="container">
-                <div class="row section-separator">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="mh-work">
-                            <h3 style="text-align: center;">Projects</h3>
-                            <div class="mh-experience-deatils">
-                                <div class="mh-work-item dark-bg wow fadeInUp project" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <br>
-                                    <h4><a href="https://github.com/ashwaniYDV/Zero-shot-Image-Recognition" style="color:#0bceaf">Zero-shot Image Recognition</a></h4>
-                                    <div class="mh-eduyear" style="color:#0bceaf">Jnuary 2020 - present</div>
-                                    <span>
-                                        <h5>I have worked for Academic Project (CS244-Introduction to data science). My topic was Image classification: Zero-shot Image Recognition Using Relational Matching, Adaptation and Calibration</h5>
-                                    </span>
-                                    <br>
-                                </div>
-                                <div class="mh-work-item dark-bg wow fadeInUp project" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <br>
-                                    <h4><a href="https://github.com/doDev-IITP/IITP-Webapp" style="color:#0bceaf">IIT Patna Utility App</a></h4>
-                                    <div class="mh-eduyear" style="color:#0bceaf">Jnuary 2019 - present</div>
-                                    <span>
-                                        <h5>I have worked on institute utility app for IIT-P students.</h5>
-                                    </span>
-                                    <br>
-                                </div>
-                                <div class="mh-work-item dark-bg wow fadeInUp project" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <br>
-                                    <h4><a href="https://github.com/ashwaniYDV/graphql-react-event-booking" style="color:#0bceaf">Graphql-react-event-booking</a></h4>
-                                    <div class="mh-eduyear" style="color:#0bceaf">April 2020 - May 2020</div>
-                                    <span>
-                                        <h5>I have made this project using hardcore Graphql without any external dependencies like apollo to better understand the core working of graphql.</h5>
-                                    </span>
-                                    <br>
-                                </div>
-                                <br>
-                                <div class="mh-work-item dark-bg wow fadeInUp project" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <br>
-                                    <h4><a href="https://github.com/ashwaniYDV/Handwritten-Digit-Prediction" style="color:#0bceaf">Handwritten-Digit Prediction</a></h4>
-                                    <div class="mh-eduyear" style="color:#0bceaf">April 2020 - present</div>
-                                    <span>
-                                        <h5>Handwritten Digit Prediction using Convolutional Neural Networks in TensorFlow with Keras and Live Example using TensorFlow.js</h5>
-                                    </span>
-                                    <br>
-                                </div>
-                                <br>
-                                <div class="mh-work-item dark-bg wow fadeInUp project" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <br>
-                                    <h4><a href="https://github.com/ashwaniYDV/Rocket.Chat.GetJokeApp"
-                                            style="color:#0bceaf">Rocket.Chat.GetJokeApp</a></h4>
-                                    <div class="mh-eduyear" style="color:#0bceaf">MArch 2020 - present</div>
-                                    <span>
-                                        <h5>A RocketChat app which send you random joke through any channel by /getjoke slash command</h5>
-                                    </span>
-                                    <br>
-                                </div>
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.7s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                    <h4><a href="https://github.com/ashwaniYDV/p2p-video-chat-webrtc">p2p-video-chat-webrtc</a></h4>
-                                    <div class="mh-eduyear">2020-present</div>
-                                    <span>
-                                        <h5>Peer to peer video chat with WebRTC</h5>
-                                    </span>
-                                </div>
-
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <h4><a
-                                            href="https://github.com/ashwaniYDV/iochat">IO-Chat</a>
-                                    </h4>
-                                    <div class="mh-eduyear">2019-present</div>
-                                    <span>
-                                        <h5>socket.io realtime chatapp</h5>
-                                    </span>
-                                </div>
-                                <!-- Education Institutes-->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.6s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                    <h4><a href="https://nss.iitp.ac.in/">NSS-Webpage</a></h4>
-                                    <div class="mh-eduyear">2019-present</div>
-                                    <span>
-                                        <h5>Official website of NSS unit of IIT Patna.</h5>
-                                    </span>
-                                </div>
-                                <!-- Education Institutes-->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.7s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                    <h4><a href="https://celesta.org.in/">Celesta2k19-Webpage</a></h4>
-                                    <div class="mh-eduyear">2019-present</div>
-                                    <span>
-                                        <h5>Official website for Celesta IIT Patna, the annual techno management fest of IIT Patna.</h5>
-                                    </span>
-                                </div>
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.7s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                    <h4><a href="https://github.com/ashwaniYDV/sahaayak">Sahaayak</a></h4>
-                                    <div class="mh-eduyear">Nov 2018 - Feb 2019</div>
-                                    <span>
-                                        <h5>Sahaayak is a platform for the talented vendors and people who all are willing to work but not getting a right platform or chance to convert their passion and talent into their scalable profession.</h5>
-                                    </span>
-                                </div>
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.7s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                    <h4><a href="https://github.com/ashwaniYDV/sahaayak_server">Sahaayak Server</a></h4>
-                                    <div class="mh-eduyear">Nov 2018 - Feb 2019</div>
-                                    <span>
-                                        <h5>Worked on sahaayak backend in NodeJS</h5>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="mh-work">
-                            <h3 style="text-align: center;">Work Experiences</h3>
-                            <div class="mh-experience-deatils">
-                                <!-- Education Institutes-->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.6s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                    <h4>GSoC'20 from <a href="https://github.com/rocketChat/Rocket.Chat">RocketChat </a>in <a
-                                            href="https://github.com/rocketChat/Rocket.Chat.livechat">Rocket.Chat.Livechat</a></h4>
-                                    <div class="mh-eduyear">March/2020 - Present (Sophomore Year)</div>
-                                    <span>
-                                        <h5>Student Developer in RocketChat Organization as a part of GSoC'20 student.
-                                        </h5>
-                                    </span>
-                                </div>
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.6s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                    <h4>1rd Prize at Ashoka's Tech for Change Challenge in <a href="http://interiittech.org/">Inter IIT Tech Meet 8.O </a></h4>
-                                    <div class="mh-eduyear">December 2019</div>
-                                    <span>
-                                        <h5>I along with my team members secured 1rd position at Inter IIT Tech Meet 8.O
-                                            in the event Ashoka's Tech for Change Challenge for proposing a model on cooperative farming.</h5>
-                                    </span>
-                                </div>
-                                <!-- Education Institutes-->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <h4><a href="https://njack.iitp.ac.in/">NJACK IITP (CS Club)</a></h4>
-                                    <div class="mh-eduyear">2020-present</div>
-                                    <span>
-                                        <h5>Develeopment and Open Source Coordinator</h5>
-                                    </span>
-                                </div>
-                                <!-- Education Institutes-->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <h4><a href="http://celesta.org.in/">Celesta IITP (Tech Fest of IITP)</a></h4>
-                                    <div class="mh-eduyear">2020-present</div>
-                                    <span>
-                                        <h5>Web and App Team Coordinator</h5>
-                                    </span>
-                                </div>
-
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <h4><a href="http://anwesha.info/">Anwesha IITP (Cultural Fest of IITP)</a></h4>
-                                    <div class="mh-eduyear">2019 - 2020</div>
-                                    <span>
-                                        <h5>Web and App Team Sub-Coordinator</h5>
-                                    </span>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-
-                </div>
-                <div class="calendar">
-                    Loading the details about the pull requests, issues opened and commits made by me.
-                </div>
-                <script>
-                    GitHubCalendar(".calendar", "ashwaniYDV");
-                    // or enable responsive functionality
-                    GitHubCalendar(".calendar", "ashwaniYDV", { responsive: true });
-                </script>
-            </div>
-        </div>
-    </section>
-
-    <!--
-        ===================
-           FOOTER 1
-        ===================
-        -->
-    <footer class="mh-footer" id="contact">
-        <div class="map-image image-bg">
-            <div class="container">
-                <div class="row section-separator">
-                    <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <h3>Contact Me</h3>
-                    </div>
-                    <div class="col-sm-12 mh-footer-address">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-4">
-                                <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
-                                    data-wow-duration="0.8s" data-wow-delay="0.3s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                                    <div class="each-icon">
-                                        <i class="fa fa-location-arrow"></i>
-                                    </div>
-                                    <div class="each-info">
-                                        <h4>Address</h4>
-                                        <address>
-                                            Kanpur, Uttar Pradesh <br>
-                                            India
-                                        </address>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4">
-                                <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
-                                    data-wow-duration="0.8s" data-wow-delay="0.5s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
-                                    <div class="each-icon">
-                                        <i class="fa fa-envelope-o"></i>
-                                    </div>
-                                    <div class="each-info">
-                                        <h4>Email</h4>
-                                        <a href="mailto:ashyadavash@gmail.com">ashyadavash@gmail.com</a><br>
-                                        <a href="mailto:1801ee13@iitp.ac.in">1801ee13@iitp.ac.in</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4">
-                                <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
-                                    data-wow-duration="0.8s" data-wow-delay="0.7s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                    <div class="each-icon">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="each-info">
-                                        <h4>Phone</h4>
-                                        <a href="tel:+918299735195">+91 8299735195</a><br>
-                                        <!-- <a href="tel:+917523072935">+91 7523072935</a> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-
-                        <form id="messageForm" class="single-form quate-form wow fadeInUp" data-toggle="validator"
-                            novalidate="true" style="visibility: visible; animation-name: fadeInUp;">
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <input name="first_name" class="contact-name form-control" id="first_name"
-                                        type="text" placeholder="First Name" required>
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <input name="last_name" class="contact-email form-control" id="last_name"
-                                        type="text" placeholder="Last Name" required>
-                                </div>
-                                <div class="col-sm-12">
-                                    <input name="email" class="contact-subject form-control" id="email" type="email"
-                                        placeholder="Your Email" required>
-                                </div>
-                                <div class="col-sm-12">
-                                    <textarea class="contact-message" id="message" rows="6" name="message"
-                                        placeholder="Your Message" required></textarea>
-                                </div>
-                                <!-- Subject Button -->
-                                <div class="btn-form col-sm-12">
-                                    <button type="submit" class="btn btn-fill btn-block disabled" id="submit"
-                                        name="submit">Send Message</button>
-                                    <br>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
-                        <iframe src="embed.html" width="100%" height="100%" frameborder="0" style="border:0"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="text-left text-xs-center">
-                                    <p>All right reserved Ashwani Yadav @ 2020</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <ul class="social-icon">
-                                    <li><a href="https://www.facebook.com/ashwani.yadav9499" target="_blank"><i
-                                                class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/ashyadavash" target="_blank"><i
-                                                class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://github.com/ashwaniYDV/" target="_blank"><i
-                                                class="fa fa-github"></i></a></li>
-                                    <li><a href="https://www.instagram.com/ashwani_yadav04/" target="_blank"><i
-                                                class="fa fa-instagram"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/ashwaniydv/" target="_blank"><i
-                                                class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!--
-    ==============
-    * JS Files *
-    ==============
-    -->
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-
-    <!-- owl carousel -->
-    <script src="js/owl.carousel.js"></script>
-    <!-- validator -->
-    <script src="js/validator.min.js"></script>
-    <!-- wow -->
-    <script src="js/wow.min.js"></script>
-    <!-- mixin js-->
-    <script src="js/jquery.mixitup.min.js"></script>
-    <!-- circle progress-->
-    <script src="js/circle-progress.js"></script>
-    <!-- jquery nav -->
-    <script src="js/jquery.nav.js"></script>
-    <!-- Fancybox js-->
-    <script src="js/jquery.fancybox.min.js"></script>
-    <!-- isotope js-->
-    <script src="js/isotope.pkgd.js"></script>
-    <script src="js/packery-mode.pkgd.js"></script>
-    <!-- Map api -->
-    <script src="js_1"></script>
-    <!-- Custom Scripts-->
-    <script src="js/map-init.js"></script>
-    <script src="js/custom-scripts.js"></script>
-    <!--Send Message-->
-    <script src="js/firebase-app.js"></script>
-    <script src="js/firebase-database.js"></script>
-    <script src="js/send_message.js"></script>
-
-
-    <!-- ****************
-      After neccessary customization/modification, Please minify
-      JavaScript/jQuery according to http://browserdiet.com/en/ for better performance
-    **************** -->
-    <!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
-    <link rel="stylesheet" href="css/demo.css">
-    <script type="text/javascript" src="js/styleswitcher.js"></script>
-    <script type="text/javascript" src="js/demo.js"></script>
-    <!-- <div class="demo-style-switch" id="switch-style">
-        <a id="toggle-switcher" class="switch-button"><i class="fa fa-snowflake-o fa-spin"></i></a>
-        <div class="switched-options">
-            <ul>
-                <span class="text-centre">
-                    <h5 class="bg-success text-xs-center" style="text-align:center;">Organizations</h5>
-                </span>
-                <li class="mh-demo-styles">
-                    <h4>Developer Student Club </h4>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/dsciitpatna/"> <img src="images/dsc.jpg" alt
-                                    class="img-fluid"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="mh-demo-styles">
-                    <h4>FOSSASIA </h4>
-                    <ul>
-                        <li>
-                            <a href="https://fossasia.org/"> <img src="images/fossasia.jpeg" alt class="img-fluid"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="mh-demo-styles">
-                    <h4>Anwesha</h4>
-                    <ul>
-                        <li>
-                            <a href="https://www.anwesha.info/"> <img src="images/anwesha.jpg" alt
-                                    class="img-fluid"></a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="mh-demo-styles">
-                    <h4>Celesta</h4>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/CelestaIITP/"> <img src="images/celesta.jpg" alt
-                                    class="img-fluid"></a>
-                        </li>
-
-                    </ul>
-                </li>
-                <li class="mh-demo-styles">
-                    <h4>SAAR</h4>
-                    <ul>
-                        <li>
-                            <a href="https://saar.iitp.ac.in"> <img src="images/saar.jpg" alt class="img-fluid"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="mh-demo-styles">
-                    <h4>NSS-IIT Patna</h4>
-                    <ul>
-                        <li>
-                            <a href="https://nss.iitp.ac.in"> <img src="images/nss.jpg" alt class="img-fluid"></a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div> -->
-
-</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span
-        class="gr__triangle"></span></span>
+		<!-- formspree.io script -->
+		<script>
+		window.addEventListener("DOMContentLoaded", function() {
+	  
+		  // get the form elements defined in your form HTML above
+		  
+		  var form = document.getElementById("my-form");
+		  var button = document.getElementById("my-form-button");
+		  var status = document.getElementById("my-form-status");
+	  
+		  // Success and Error functions for after the form is submitted
+		  
+		  function success() {
+			form.reset();
+			status.innerHTML = "Thanks for connecting!";
+		  }
+	  
+		  function error() {
+			status.innerHTML = "Oops! There was a problem.";
+		  }
+	  
+		  // handle the form submission event
+		  form.addEventListener("submit", function(ev) {
+			ev.preventDefault();
+			var data = new FormData(form);
+			ajax(form.method, form.action, data, success, error);
+		  });
+		});
+		
+		// helper function for sending an AJAX request
+	  
+		function ajax(method, url, data, success, error) {
+		  var xhr = new XMLHttpRequest();
+		  xhr.open(method, url);
+		  xhr.setRequestHeader("Accept", "application/json");
+		  xhr.onreadystatechange = function() {
+			if (xhr.readyState !== XMLHttpRequest.DONE) return;
+			if (xhr.status === 200) {
+			  success(xhr.response, xhr.responseType);
+			} else {
+			  error(xhr.status, xhr.response, xhr.responseType);
+			}
+		  };
+		  xhr.send(data);
+		}
+	</script>
+		<!-- Scripts -->
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<script>
+		AOS.init();
+		$(window).on('load', function () {
+			AOS.refresh();
+		});
+	</script>
+	</body>
 
 </html>
